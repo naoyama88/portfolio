@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.eae714bf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.eae714bf.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4406a13b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4406a13b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.af0b07c5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.af0b07c5.js.map",
     "static/js/2.e115e538.chunk.js": "/portfolio/static/js/2.e115e538.chunk.js",
     "static/js/2.e115e538.chunk.js.map": "/portfolio/static/js/2.e115e538.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7db4bc6b65106fa389ae5d3a42dbe9f5.js": "/portfolio/precache-manifest.7db4bc6b65106fa389ae5d3a42dbe9f5.js",
+    "precache-manifest.8a1b92ae9d8d2d90ea97b60b8a4927b0.js": "/portfolio/precache-manifest.8a1b92ae9d8d2d90ea97b60b8a4927b0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/js/2.e115e538.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e115e538.chunk.js.LICENSE.txt",
     "static/media/Redux.png": "/portfolio/static/media/Redux.4912f6d8.png",
@@ -26,6 +26,6 @@
   "entrypoints": [
     "static/js/runtime-main.af0b07c5.js",
     "static/js/2.e115e538.chunk.js",
-    "static/js/main.eae714bf.chunk.js"
+    "static/js/main.4406a13b.chunk.js"
   ]
 }
