@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.4406a13b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4406a13b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2bd6cda8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2bd6cda8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.af0b07c5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.af0b07c5.js.map",
-    "static/js/2.e115e538.chunk.js": "/portfolio/static/js/2.e115e538.chunk.js",
-    "static/js/2.e115e538.chunk.js.map": "/portfolio/static/js/2.e115e538.chunk.js.map",
+    "static/js/2.60dc8ae5.chunk.js": "/portfolio/static/js/2.60dc8ae5.chunk.js",
+    "static/js/2.60dc8ae5.chunk.js.map": "/portfolio/static/js/2.60dc8ae5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8a1b92ae9d8d2d90ea97b60b8a4927b0.js": "/portfolio/precache-manifest.8a1b92ae9d8d2d90ea97b60b8a4927b0.js",
+    "precache-manifest.3817976dcf1f390e6dca0bf5e8a6e0e5.js": "/portfolio/precache-manifest.3817976dcf1f390e6dca0bf5e8a6e0e5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.e115e538.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e115e538.chunk.js.LICENSE.txt",
-    "static/media/Redux.png": "/portfolio/static/media/Redux.4912f6d8.png",
-    "static/media/css3.png": "/portfolio/static/media/css3.a32f83aa.png",
-    "static/media/html5.png": "/portfolio/static/media/html5.65a50913.png",
-    "static/media/jquery.png": "/portfolio/static/media/jquery.5894fb96.png",
+    "static/js/2.60dc8ae5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.60dc8ae5.chunk.js.LICENSE.txt",
+    "static/media/base.png": "/portfolio/static/media/base.f25a20a3.png",
+    "static/media/jpcanada_structure.png": "/portfolio/static/media/jpcanada_structure.d70d1756.png",
     "static/media/js.png": "/portfolio/static/media/js.e8c27f6b.png",
     "static/media/laravel.png": "/portfolio/static/media/laravel.d5556b80.png",
     "static/media/linkedin_clear.png": "/portfolio/static/media/linkedin_clear.968ea628.png",
-    "static/media/mysql.svg": "/portfolio/static/media/mysql.f80a91ba.svg",
-    "static/media/nodejs.png": "/portfolio/static/media/nodejs.71dc080c.png",
     "static/media/php.svg": "/portfolio/static/media/php.44403f1e.svg",
     "static/media/profile_pic2.png": "/portfolio/static/media/profile_pic2.d4ea8ead.png",
-    "static/media/react.png": "/portfolio/static/media/react.8f65a033.png"
+    "static/media/react.png": "/portfolio/static/media/react.8f65a033.png",
+    "static/media/sample.png": "/portfolio/static/media/sample.1e5a1669.png"
   },
   "entrypoints": [
     "static/js/runtime-main.af0b07c5.js",
-    "static/js/2.e115e538.chunk.js",
-    "static/js/main.4406a13b.chunk.js"
+    "static/js/2.60dc8ae5.chunk.js",
+    "static/js/main.2bd6cda8.chunk.js"
   ]
 }
