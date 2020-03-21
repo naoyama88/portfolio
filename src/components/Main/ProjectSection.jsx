@@ -2,6 +2,7 @@ import React from 'react';
 import Styled from 'styled-components';
 
 import SampleImg from './sample.png';
+import GonchaImg from './ScreenShot_Goncha.png';
 import JPCANADAVANimg from './jpcanada_structure.png';
 import BASEimg from './Experience/base.png';
 
@@ -167,7 +168,7 @@ const ProjectSection = () => {
         </StyledEachList>
         <StyledEachList>
           <TopPicSection>
-            <ProjectImg src={SampleImg} alt="Sample image" />
+            <ProjectImg src={GonchaImg} alt="Goncha image" />
           </TopPicSection>
           <EachProjectSection className="Goncha">
             <StyledH3>Goncha</StyledH3>
