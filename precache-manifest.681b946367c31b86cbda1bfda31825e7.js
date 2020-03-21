@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5ccadaf8c2f3e36d1dce586fda49eb5",
+    "revision": "eeda6ef363a54a404fece86409f5cccf",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7b4318d88673ea4d7b21",
-    "url": "/portfolio/static/js/2.60dc8ae5.chunk.js"
+    "revision": "30dae2d13684f47e631c",
+    "url": "/portfolio/static/js/2.b3cc61b4.chunk.js"
   },
   {
     "revision": "2d4e50db9bebc1822939159016933eb5",
-    "url": "/portfolio/static/js/2.60dc8ae5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.b3cc61b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0e9cb8afaa1dd441b9c",
-    "url": "/portfolio/static/js/main.2bd6cda8.chunk.js"
+    "revision": "5f555259a58e3898ee60",
+    "url": "/portfolio/static/js/main.33e88ab3.chunk.js"
   },
   {
     "revision": "7107900f59be1fd95810",
     "url": "/portfolio/static/js/runtime-main.af0b07c5.js"
+  },
+  {
+    "revision": "e21c02965b6a96c52d973456d0ef9bea",
+    "url": "/portfolio/static/media/ScreenShot_Goncha.e21c0296.png"
   },
   {
     "revision": "f25a20a3e8a7258e36a9f0f30a628ec6",
