@@ -1,5 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import profilePic from './profile_pic2.png';
 import githubPic from './github_mini.png';
@@ -34,7 +35,7 @@ const ProfileImage = Styled.img`
 
 const StyledImageSection = Styled.section`
   width: 300px;
-  margin: 0 20px;
+  margin: 0 60px 0 20px;
 `;
 
 const StyledProfileSection = Styled.section`
@@ -53,7 +54,7 @@ const StyledH3 = Styled.h3`
   font-size: 24px;
   line-height: 24px;
   font-family: Viga, sans-serif;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 `;
 
 const StyledP = Styled.p`
@@ -157,7 +158,7 @@ const HeroSection = () => {
             <StyledLi>
               <StyledSpan>Resume</StyledSpan>
               <ButtonImageContainer>
-                <a href="%PUBLIC_URL%/resume_marcus.pdf" rel="noopener noreferrer" target="_blank">
+                <a href="/portfolio/resume_marcus.pdf" rel="noopener noreferrer" target="_blank">
                   <ButtonImageInnerContainer>
                     <ResumeLogoImage src={resumePic} alt="Icon of Resume to jump" />
                   </ButtonImageInnerContainer>
@@ -169,9 +170,10 @@ const HeroSection = () => {
       </StyledImageSection>
       <StyledProfileSection>
         <StyledH2>Marcus Naoya Araki</StyledH2>
-        <StyledH3>Full-stack Web Developer currently into Front-end tech</StyledH3>
+        <StyledH3>Web Developer</StyledH3>
         <StyledP>
           <p>Hi! I am Marcus.</p>
+          <br />
           {/* A web developer with solid backend skills is looking for an
           opotunity to work as Front-end Developer (preffered).
           I can also work as a Full-stack Developer.

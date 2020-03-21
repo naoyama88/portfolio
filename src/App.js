@@ -58,8 +58,8 @@ const App = () => {
     <>
       <Reset />
       <GlobalStyle />
+      <Header />
       <Container>
-        <Header />
         <Main />
         <Footer />
       </Container>

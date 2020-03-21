@@ -5,12 +5,12 @@ import PHPLogo from './Logo/Big/PHPLogo';
 import LaravelLogo from './Logo/Big/LaravelLogo';
 import JSLogo from './Logo/Big/JSLogo';
 import ReactLogo from './Logo/Big/ReactLogo';
-import ReduxLogo from './Logo/Big/ReduxLogo';
-import NodejsLogo from './Logo/Big/NodejsLogo';
-import MySQLLogo from './Logo/Big/MySQLLogo';
-import HTML5Logo from './Logo/Big/HTML5Logo';
-import CSS3Logo from './Logo/Big/CSS3Logo';
-import JQueryLogo from './Logo/Big/JQueryLogo';
+// import ReduxLogo from './Logo/Big/ReduxLogo';
+// import NodejsLogo from './Logo/Big/NodejsLogo';
+// import MySQLLogo from './Logo/Big/MySQLLogo';
+// import HTML5Logo from './Logo/Big/HTML5Logo';
+// import CSS3Logo from './Logo/Big/CSS3Logo';
+// import JQueryLogo from './Logo/Big/JQueryLogo';
 
 // import GitLogo from './Logo/Small/GitLogo';
 // import GithubLogo from './Logo/Small/GithubLogo';
@@ -41,9 +41,14 @@ const StyledH2 = Styled.h2`
 // `;
 
 const StyledBigLogoUl = Styled.ul`
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  row-gap: 40px
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0 10px; */
+  justify-content: space-around;
+`;
+
+const StyledBigLogoLi = Styled.li`
+  padding: 20px 0;
 `;
 
 // const StyledSmallLogoUl = Styled.ul`
@@ -53,7 +58,7 @@ const StyledBigLogoUl = Styled.ul`
 // `;
 
 const StyledSkillsSection = Styled.section`
-  padding-bottom: 40px;
+  padding: 30px;
 `;
 
 const StyledMainSkillsSection = Styled.section`
@@ -71,16 +76,10 @@ const SkillsSection = () => {
         <StyledH2>Skills</StyledH2>
         <div>
           <StyledBigLogoUl>
-            <li><PHPLogo /></li>
-            <li><LaravelLogo /></li>
-            <li><JSLogo /></li>
-            <li><ReactLogo /></li>
-            <li><ReduxLogo /></li>
-            <li><NodejsLogo /></li>
-            <li><MySQLLogo /></li>
-            <li><HTML5Logo /></li>
-            <li><CSS3Logo /></li>
-            <li><JQueryLogo /></li>
+            <StyledBigLogoLi><JSLogo /></StyledBigLogoLi>
+            <StyledBigLogoLi><ReactLogo /></StyledBigLogoLi>
+            <StyledBigLogoLi><PHPLogo /></StyledBigLogoLi>
+            <StyledBigLogoLi><LaravelLogo /></StyledBigLogoLi>
           </StyledBigLogoUl>
         </div>
       </StyledMainSkillsSection>

@@ -1,14 +1,26 @@
 import React from 'react';
 import Styled from 'styled-components';
+import Media from 'react-media';
+import { Link } from 'react-scroll';
 
 const StyledHeader = Styled.header`
-  width: 100%;
+  width: 84vw;
+  padding: 10px 8vw;
   font-family: Viga, sans-serif;
   color: #0B5DF5;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
+  /* @media screen and (max-width: 768px) {
+    position: relative;
+  } */
+  position: sticky;
+  top: 0px;
+  background-color: #E0E5EC;
+  /* background-color: red; */
+  /* box-shadow: 0px 2px 16px grey; */
+  border-bottom: 1px solid #bfbfbf;
 `;
 
 const StyledH1 = Styled.h1`
@@ -18,7 +30,12 @@ const StyledH1 = Styled.h1`
 `;
 
 const StyledNav = Styled.nav`
-  /* margin-top: 50px; */
+  display: block;
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 `;
 
 const StyledUl = Styled.ul`
@@ -31,10 +48,6 @@ const StyledUl = Styled.ul`
 `;
 
 const StyledLi = Styled.li`
-  /* float: right; */
-`;
-
-const StyledLink = Styled.a`
   color: #0B5DF5;
   display: block;
   text-align: center;
@@ -46,13 +59,56 @@ const Header = () => {
   return (
     <StyledHeader>
       <StyledH1>Marcus</StyledH1>
-      <StyledNav>
-        <StyledUl>
-          <StyledLi><StyledLink href="#skills">Skills</StyledLink></StyledLi>
-          <StyledLi><StyledLink href="#experience">Experience</StyledLink></StyledLi>
-          <StyledLi><StyledLink href="#projects">Projects</StyledLink></StyledLi>
-        </StyledUl>
-      </StyledNav>
+      <Media queries={{
+        small: '(max-width: 767px)',
+        large: '(min-width: 768px)',
+      }}
+      >
+        {(matches) => (
+          <>
+            {matches.small && <p>I am small!</p>}
+            {matches.large && 
+              <StyledNav>
+                <StyledUl>
+                  <StyledLi>
+                    <Link
+                      activeClass="active"
+                      to="skills"
+                      spy={true}
+                      smooth={true}
+                      offset={-80}
+                      duration= {500}
+                      style={{ color: '#0B5DF5', display: 'block', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}
+                    >Skills</Link>
+                  </StyledLi>
+                  <StyledLi>
+                    <Link
+                      activeClass="active"
+                      to="experience"
+                      spy={true}
+                      smooth={true}
+                      offset={-100}
+                      duration= {500}
+                      style={{ color: '#0B5DF5', display: 'block', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}
+                    >Experience</Link>
+                  </StyledLi>
+                  <StyledLi>
+                    <Link
+                      activeClass="active"
+                      to="projects"
+                      spy={false}
+                      smooth={true}
+                      offset={-100}
+                      duration= {500}
+                      style={{ color: '#0B5DF5', display: 'block', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}
+                    >Projects</Link>
+                  </StyledLi>
+                </StyledUl>
+              </StyledNav>
+            }
+          </>
+        )}
+      </Media>
     </StyledHeader>
   );
 };

@@ -60,9 +60,12 @@ const Projects = (props) => {
           })}
         </StyledUl>
       </div>
-      <div className="right">
-        <ProjectImg src={`%PUBLIC_URL%/${projects.imgSrc}`} alt={projects.imgAlt} />
-      </div>
+      {console.log(projects.imgSrc)}
+        {typeof projects.imgSrc !== 'undefined' &&
+          <div className="right">
+            <ProjectImg src={`/portfolio/${projects.imgSrc}`} alt={projects.imgAlt} />
+          </div>
+        }
     </ProjectContainer>
   );
 };
