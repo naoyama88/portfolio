@@ -7,6 +7,7 @@ const StyledUl = Styled.ul`
 `;
 
 const StyledLi = Styled.li`
+  margin-top: 5px;
   &:before {
     content: "- ";
     text-indent: -5px;

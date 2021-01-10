@@ -25,13 +25,13 @@ const StyledLi = Styled.li`
     content: "- ";
     text-indent: -5px;
   }
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 `;
 
 const StyledH4 = Styled.h4`
   font-size: 20px;
-  lione-height: 20px;
-  padding-bottom: 20px;
+  line-height: 20px;
+  padding-bottom: 12px;
 `;
 
 const ProjectImg = Styled.img`

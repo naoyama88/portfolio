@@ -1,6 +1,98 @@
 const ListOfExperience = [
   {
     id: '1',
+    title: 'Full-Stack Developer, Roomvu',
+    location: 'Vancouver, Canada',
+    term: 'May 2020 - August 2020',
+    url: 'https://roomvu.com/',
+    tldrs: [
+      {
+        id: '1-tldr-1',
+        content: 'Worked with experienced devs, was responsible with backend and frontend',
+      }
+    ],
+    projects: {
+      title: 'Projects',
+      imgSrc: '',
+      imgAlt: '',
+      projects: [
+        {
+          id: '1-project-1',
+          title: 'Real estate showing platform for owners',
+          descriptions: [
+            {
+              id: '1-description-1-1',
+              content: 'Modified an web app which helps property owners to sell their properties and make their properties look good',
+            },
+            {
+              id: '1-description-1-2',
+              content: 'LAMP stack, was trying to make the app as microservices',
+            },
+            {
+              id: '1-description-1-3',
+              content: 'Technologies used: Laravel, Vue.js, Scss, Webpack, npm, jQuery, Google Analytics API, Git',
+            },
+          ],
+        },
+      ],
+    },
+    experience: {
+      tech: {
+        frontend: [
+          {
+            id: '1-frontendskill-1',
+            content: 'VanillaJS',
+          },
+          {
+            id: '1-frontendskill-2',
+            content: 'Vue.js',
+          },
+          {
+            id: '1-frontendskill-3',
+            content: 'Scss',
+          },
+          {
+            id: '1-frontendskill-4',
+            content: 'jQuery',
+          },
+        ],
+        backend: [
+          {
+            id: '1-backendskill-1',
+            content: 'PHP7',
+          },
+          {
+            id: '1-backendskill-2',
+            content: 'Laravel',
+          },
+          {
+            id: '1-backendskill-3',
+            content: 'MySQL',
+          },
+          {
+            id: '1-backendskill-4',
+            content: 'Nginx',
+          },
+          {
+            id: '1-backendskill-5',
+            content: 'Selenium',
+          },
+        ],
+      },
+      general: [
+        {
+          id: '1-generalskill-1',
+          content: 'Work from home with specific routine like mornig meating everyday, report tasks I did daily',
+        },
+        {
+          id: '1-generalskill-2',
+          content: 'Work with co-workers of all around the world (India, Iran, Euro, and so on)',
+        },
+      ],
+    },
+  },
+  {
+    id: '2',
     title: 'Full-Stack Developer, startup BASE',
     location: 'Vancouver, Canada',
     term: 'Nov 2019 - April 2020',
@@ -136,23 +228,11 @@ const ListOfExperience = [
           id: '1-generalskill-2',
           content: 'Discussed about product with team mate',
         },
-        {
-          id: '1-generalskill-3',
-          content: 'Saw what Ceo in startup does',
-        },
-        {
-          id: '1-generalskill-4',
-          content: 'Product grew up in very first phase',
-        },
-        {
-          id: '1-generalskill-5',
-          content: 'How poor company works',
-        },
       ],
     },
   },
   {
-    id: '2',
+    id: '3',
     title: 'Web Developer, System Quest Inc.',
     location: 'Tokyo, Japan',
     term: 'Apr 2014 - Sep 2018',

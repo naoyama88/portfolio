@@ -89,8 +89,8 @@ const ProjectSection = () => {
             <StyledUl>
               <StyledLi>My portfolio</StyledLi>
               <StyledLi>Personal Project</StyledLi>
-              <StyledLi><a href="https://github.com/naoyama88/portfolio" rel="noopener noreferrer" target="_blank">https://github.com/naoyama88/portfolio</a></StyledLi>
-              <StyledLi><a href="https://naoyama88.github.io/portfolio/" rel="noopener noreferrer" target="_blank">https://naoyama88.github.io/portfolio/</a></StyledLi>
+              <StyledLi><a href="https://github.com/naoyama88/portfolio" rel="noopener noreferrer" target="_blank">Source Code</a></StyledLi>
+              <StyledLi><a href="https://naoyama88.github.io/portfolio/" rel="noopener noreferrer" target="_blank">Website</a></StyledLi>
             </StyledUl>
             <StyledUl>
               <StyledSkillLi>- React</StyledSkillLi>
@@ -103,20 +103,12 @@ const ProjectSection = () => {
             <ProjectImg src={JPCANADAVANimg} alt="Structure of this app" />
           </TopPicSection>
           <EachProjectSection className="jpcanadavanjob">
-            <StyledH3>JPCANADAVANJOB</StyledH3>
+            <StyledH3>JPCANADA Vancouver Jobs</StyledH3>
             <StyledUl>
               <StyledLi>Twitter Bot</StyledLi>
               <StyledLi>Personal Project</StyledLi>
-              <StyledLi>
-                Service URL (Twitter account):
-                <br />
-                <a href="https://twitter.com/jpcanadavanjob" rel="noopener noreferrer" target="_blank">https://twitter.com/jpcanadavanjob</a>
-              </StyledLi>
-              <StyledLi>
-                Github URL:
-                <br />
-                <a href="https://github.com/naoyama88/jpcanadavanjob" rel="noopener noreferrer" target="_blank">https://github.com/naoyama88/jpcanadavanjob</a>
-              </StyledLi>
+              <StyledLi><a href="https://twitter.com/jpcanadavanjob" rel="noopener noreferrer" target="_blank">Twitter account</a></StyledLi>
+              <StyledLi><a href="https://github.com/naoyama88/jpcanadavanjob" rel="noopener noreferrer" target="_blank">Source Code</a></StyledLi>
             </StyledUl>
             <StyledUl>
               <StyledSkillLi>- PHP</StyledSkillLi>
@@ -135,7 +127,7 @@ const ProjectSection = () => {
             <StyledUl>
               <StyledLi>Chat Application (web)</StyledLi>
               <StyledLi>Work</StyledLi>
-              <StyledLi><a href="https://base.town/" rel="noopener noreferrer" target="_blank">https://base.town/</a></StyledLi>
+              <StyledLi><a href="https://base.town/" rel="noopener noreferrer" target="_blank">Go to Website</a></StyledLi>
             </StyledUl>
             <StyledUl>
               <StyledSkillLi>- Go</StyledSkillLi>
@@ -155,8 +147,8 @@ const ProjectSection = () => {
             <StyledUl>
               <StyledLi>Riddle</StyledLi>
               <StyledLi>School Project</StyledLi>
-              <StyledLi><a href="https://github.com/wadp413-January/midterm-team-d-riddle" rel="noopener noreferrer" target="_blank">https://github.com/wadp413-January/midterm-team-d-riddle</a></StyledLi>
-              <StyledLi><a href="https://github.com/naoyama88/react-riddle" rel="noopener noreferrer" target="_blank">https://github.com/naoyama88/react-riddle</a></StyledLi>
+              <StyledLi><a href="https://github.com/wadp413-January/midterm-team-d-riddle" rel="noopener noreferrer" target="_blank">Source Code</a></StyledLi>
+              <StyledLi><a href="https://github.com/naoyama88/react-riddle" rel="noopener noreferrer" target="_blank">Website</a></StyledLi>
             </StyledUl>
             <StyledUl>
               <StyledSkillLi>- Node.js</StyledSkillLi>
@@ -175,8 +167,8 @@ const ProjectSection = () => {
             <StyledUl>
               <StyledLi>Shop website</StyledLi>
               <StyledLi>School Project</StyledLi>
-              <StyledLi><a href="https://naoyama88.github.io/Web-dev-class-group-app/" rel="noopener noreferrer" target="_blank">https://naoyama88.github.io/Web-dev-class-group-app/</a></StyledLi>
-              <StyledLi><a href="https://github.com/naoyama88/Web-dev-class-group-app" rel="noopener noreferrer" target="_blank">https://github.com/naoyama88/Web-dev-class-group-app</a></StyledLi>
+              <StyledLi><a href="https://naoyama88.github.io/Web-dev-class-group-app/" rel="noopener noreferrer" target="_blank">Website</a></StyledLi>
+              <StyledLi><a href="https://github.com/naoyama88/Web-dev-class-group-app" rel="noopener noreferrer" target="_blank">Source Code</a></StyledLi>
             </StyledUl>
             <StyledUl>
               <StyledSkillLi>- HTML</StyledSkillLi>
